@@ -1,0 +1,28 @@
+
+b {
+    font-weight: bold; 
+}
+
+i {
+    font-style: italic; 
+}
+
+h1 {
+    font-size: 2em; 
+}
+
+h2 {
+    font-size: 1.5em; 
+}
+
+h3 {
+    font-size: 1.2em; 
+}
+
+ol {
+    padding-left: 20px; 
+}
+
+ol li {
+    margin: 8px 0; 
+}

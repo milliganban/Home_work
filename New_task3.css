@@ -1,0 +1,33 @@
+
+.red {
+    color: red; 
+}
+
+.green {
+    color: green; 
+}
+
+.blue {
+    color: blue; 
+}
+
+ul {
+    list-style: none; 
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: "•"; 
+    color: #333;
+    margin-right: 8px;
+}
+
+ol {
+    counter-reset: item; 
+    padding-left: 25px;
+}
+
+ol li::before {
+    counter-increment: item;
+    content: counters(item, ".") " "; 
+}

@@ -1,0 +1,20 @@
+
+.red-text {
+    color: red; 
+}
+
+.blue-text {
+    color: blue; 
+}
+
+.green-text {
+    color: green; 
+}
+
+ul, ol {
+    padding-left: 25px; 
+}
+
+li {
+    margin: 5px 0; 
+}
