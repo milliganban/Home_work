@@ -1,0 +1,6 @@
+$('#hello')
+$('#hello').click()
+
+
+$('#network')
+$('#network').click()
